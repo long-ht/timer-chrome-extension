@@ -1,0 +1,89 @@
+html {
+    width: 300px;
+}
+
+.nav {
+    justify-content: center;
+    font-size: 150%;
+}
+
+#timer {
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    background: #fff;
+    width: 100%;
+    max-width: 480px;
+    min-width: 320px;
+    margin: 2em auto 0;
+    padding: 1.5em;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote {
+    display: block;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #eee;
+    padding: 1em 0.5rem 0.5em 0.5rem;
+    margin: 0 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+blockquote:before {
+    content: '\201C';
+    position: absolute;
+    top: -0.1em;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 3rem;
+    height: 2rem;
+    font: 6em/1.08em 'PT Sans', sans-serif;
+    color: #007bff;
+    text-align: center;
+}
+
+blockquote:after {
+    content: "\2013 \2003" attr(cite);
+    display: block;
+    text-align: right;
+    font-size: 0.875em;
+    color: #007bff;
+}
+
+.input-group {
+    padding: 0.5em 0rem 1.0em 0rem;
+}
+
+#redo {
+    cursor: pointer;
+    position: absolute;
+    z-index: 8;
+    padding: 0.5em 0.5rem 0.5em 0.5rem;
+}
+
+#redo:hover {
+    font-size: 120%;
+    color: #007bff;
+}
+
+#nav-settings {
+    font-size: 100%;
+    padding: 0.5em 0.5rem 0.5em 0.5rem;
+}
+
+.custom-control-label {
+    font-size: 100%;
+}
