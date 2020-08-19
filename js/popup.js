@@ -100,7 +100,7 @@ const runTimer = () => {
             });
             clearInterval(timer);
         }
-    }, 5);
+    }, 1000);
 
 }
 
