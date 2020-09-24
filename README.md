@@ -4,5 +4,5 @@ A study timer extension for Chrome.
 How to run:
 ```
 git clone https://github.com/long-ht/timer-chrome-extension
-On Chrome, go to **Settings**->**Extensions**->**Load unpacked**-->**Choose folder containing the project**
+On Chrome, go to Settings->Extensions->Load unpacked-->Choose folder containing the project
 ```
