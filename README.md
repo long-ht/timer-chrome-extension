@@ -1,4 +1,4 @@
-# [Study Timer]
+# Study Timer
 A study timer extension for Chrome.  
 ![Demo](demo/Demo1.png?raw=true) ![Demo](demo/Demo2.png?raw=true)  
 How to run:
